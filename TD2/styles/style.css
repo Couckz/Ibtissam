@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+header img {
+    width: 40%;
+    position: relative;
+    
+}
+
+header h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: red 10 2px;
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none; /*Enlever la liste à puce*/
+    background-color: black;
+    padding: 16px;
+    margin: 0;
+    display: flex;
+}
+
+nav li a {
+    color: white;
+    padding: 16px; /*Marge intérieure*/
+    text-decoration: none; /*Enlever le soulignage du txt*/
+    font-variant: small-caps; /*Mettre le texte des menus en petite majuscule*/
+
+}
+
+/*Style affiché quand la souris passe au dessus du texte des menus*/
+nav li a:hover{
+    background-color: rgb(239, 67, 67);
+}
+
+/*Flasher la class pour modifier le nom */
+.active {
+    background-color: rgb(17, 158, 151);
+}
+
+footer { 
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+    margin-top:100%;
+    
+}
+
+.footerLeft {
+    display: flex;
+    justify-content: space-around;
+}
